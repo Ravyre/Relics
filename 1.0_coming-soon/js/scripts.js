@@ -1,6 +1,21 @@
 /*--------------------------------------------------------------
   Cookie Consent
 --------------------------------------------------------------*/
+window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#efefef",
+        "text": "#404040"
+      },
+      "button": {
+        "background": "#b77e40",
+        "text": "#ffffff"
+      }
+    },
+    "theme": "classic"
+  });
+});
 
 /*--------------------------------------------------------------
   IE 11 Conditional Statement

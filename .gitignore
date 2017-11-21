@@ -1,0 +1,24 @@
+# ============================
+# Base Folder
+# ============================
+1.0_coming-soon/css/*
+!1.0_coming-soon/css/base/
+!1.0_coming-soon/css/components/
+!1.0_coming-soon/css/style.scss
+!1.0_coming-soon/css/style.min.css
+
+1.0_coming-soon/css/vendor/*
+!1.0_coming-soon/css/vendor/vendor-dir.scss
+!1.0_coming-soon/css/vendor/vendor-dir.min.css
+!1.0_coming-soon/css/vendor/icomoon/
+
+1.0_coming-soon/js/*
+!1.0_coming-soon/js/scripts.js
+
+1.0_coming-soon/fonts/
+1.0_coming-soon/img/
+
+# ============================
+# Wordpress
+# ============================
+0.0_wp

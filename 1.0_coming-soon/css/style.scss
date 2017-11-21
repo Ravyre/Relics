@@ -1,0 +1,141 @@
+/*
+Theme Name: Relics; Coming Soon
+Author: Siobhan Depper
+Author URI:
+Description:
+Version: 1.0
+
+This theme is made soley and uniquely for TTCombat.
+*/
+
+// http://jshakespeare.com/easy-icomoon-icons-with-sass
+
+/* Imports
+========================================================================== */
+@import "base/base-dir";
+@import "components/components-dir";
+@import "vendor/vendor-dir";
+
+/* Alignments
+========================================================================== */
+ /* -------------------- Vertical Align -------------------- */
+.va {
+  @include align-items(center);
+  @include display(flex);
+  @include flex-flow(row wrap);
+  @include justify-content(center);
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Colours
+========================================================================== */
+$color-head: rgba(102, 51, 0, 1);
+$color-wht: rgba(255, 255, 255, 1);
+$color-btn: rgba(143, 107, 56, 1);
+$color-stitch: rgba(165, 167, 154, 1);
+
+/* Index
+========================================================================== */
+.content {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.bg__img {
+  float: left;
+  height: 100%;
+  width: auto;
+}
+.info {
+  > div {
+    width: 100%;
+  }
+}
+.logo {
+  max-width: 400px;
+  width: 100%;
+}
+.social {
+  a {
+    text-decoration: none;
+  }
+  .stitched {
+    border-radius: 50%;
+    width: 50px;
+  }
+}
+
+/* ------------- Cogs --------------- */
+.cogs {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  z-index: -1;
+}
+svg {
+  float: left;
+}
+svg:nth-child(2) {
+  margin-left: 24%;
+  margin-top: -26%;
+}
+svg:nth-child(3) {
+  margin-top: -26%;
+}
+svg:nth-child(4) {
+  margin-left: 24%;
+  margin-top: -26%;
+}
+svg:nth-child(5) {
+  margin-top: -26%;
+}
+svg:nth-child(6) {
+  margin-left: 24%;
+  margin-top: -26%;
+}
+svg:nth-child(7) {
+  margin-top: -26%;
+}
+svg:nth-child(8) {
+  margin-left: 24%;
+  margin-top: -26%;
+}
+svg:nth-child(9) {
+  margin-top: -26%;
+}
+svg:nth-child(10) {
+  margin-left: 24%;
+  margin-top: -26%;
+}
+svg:nth-child(11) {
+  margin-top: -26%;
+}
+
+/* Media Queries
+========================================================================== */
+// https://responsivedesign.is/develop/getting-started-with-sass-and-breakpoint-mixin/
+// http://thesassway.com/intermediate/responsive-web-design-in-sass-using-media-queries-in-sass-32
+$smartphone: "only screen and (min-width: 320px) and (max-width: 767px)";
+$tablet: "only screen and (min-width: 768px) and (max-width: 1199px)";
+// $laptop: ;
+// $desktop: ;
+
+@media #{$tablet} {
+  .bg__img {
+    display: none;
+  }
+}
+@media #{$smartphone} {
+  .content {
+    height: 100%;
+  }
+  .bg__img {
+    display: none;
+  }
+}

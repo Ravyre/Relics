@@ -1,6 +1,11 @@
 # ============================
 # Base Folder
 # ============================
+BingSiteAuth.xml
+
+# ============================
+# No Wordpress
+# ============================
 1.0_coming-soon/css/*
 !1.0_coming-soon/css/base/
 !1.0_coming-soon/css/components/

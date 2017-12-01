@@ -1,3 +1,15 @@
+## 1.0.4 2017-12-01
+
+### Added
+- Robots.txt
+- Sitemap.xml
+
+### Changed
+- Index (meta data, alt text, re-added cookie consent herp derp)
+- htacess (gzip compression)
+
+### Removed
+- jQuery (not currently using it)
 
 ------------------------------------------------------------
 

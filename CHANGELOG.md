@@ -1,3 +1,20 @@
+
+------------------------------------------------------------
+
+## 1.0.5 2017-12-04
+
+### Added
+- Contents from "-dir" files into style.scss (see Removed)
+
+### Changed
+- HTML Validation error; <button> cannot be nested in <a>
+
+### Removed
+- {folder-name}-dir.scss
+- {folder-name}-dir.min.css
+
+------------------------------------------------------------
+
 ## 1.0.4 2017-12-01
 
 ### Added
@@ -41,6 +58,6 @@
 ### 1.0.0 2017-11-21
 
 ### Added
-- 1.0 Release of website
+- 1.0.0 Release of website
 
 ------------------------------------------------------------

@@ -1,3 +1,17 @@
+## 1.1.0 2018-05-18
+
+## Added
+- GDPR; compliant banner
+- GDPR; javascript
+- From HTML only to PHP
+- Container styles
+- Mixins
+
+## Changed
+- Folder structure; (css+img+js -> assets), (template-parts for php)
+
+## Removed
+- Modernizr; don't believe it's being used currently
 
 ------------------------------------------------------------
 

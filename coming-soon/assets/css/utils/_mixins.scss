@@ -1,0 +1,56 @@
+@import "../base/colours";
+
+/* BEM
+================================================== */
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+/* Vertical Align
+================================================== */
+@mixin vertical-align($justify) {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -moz-box-orient: horizontal;
+  -moz-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: $justify;
+  -moz-box-pack: $justify;
+  -ms-flex-pack: $justify;
+  justify-content: $justify;
+}
+
+/* Parallax
+================================================== */
+@mixin parallax {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-attachment: fixed; /*scroll on mobile*/
+  // width: 100%;
+}
+
+/* Pseudo
+================================================== */
+@mixin pseudo($content: "", $display: block) {
+  content: $content;
+  display: $display;
+}

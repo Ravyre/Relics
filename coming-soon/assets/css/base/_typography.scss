@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny|Special+Elite');
+@import "colours";
+
 /* Typography
    ========================================================================== */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: rgba(102, 51, 0, 1);
+  color: $brwn-rich;
   font-family: "Henny Penny", cursive;
   margin: 0;
   padding: 0;

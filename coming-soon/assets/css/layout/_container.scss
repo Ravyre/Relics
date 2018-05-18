@@ -1,0 +1,26 @@
+/* Container
+================================================== */
+@mixin container($padding:null, $margin:null, $width:null) {
+  padding: $padding;
+  >* {
+    // margin: 0 auto; // don't always want items centred
+    margin: $margin;
+    max-width: $width;
+  }
+  @if $margin == null {
+    >* {
+      margin: 0 auto;
+    }
+  }
+  @if $padding == null {
+    padding: 3rem;
+  }
+  @if $width == null {
+    >* {
+      max-width: 1000px;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    padding: 1rem;
+  } // media query
+}

@@ -1,0 +1,23 @@
+@import "../base/colours";
+@import "../utils/mixins";
+
+/* Buttons
+================================================== */
+.stitched {
+  @include vertical-align($justify: center);
+  background: $brwn;
+  border: 2px dashed $stitch;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 0 4px $brwn;
+  box-shadow: 0 0 0 4px $brwn; //2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  color: $wht;
+  font: normal 30px "Special Elite", cursive;
+  margin: 1rem auto;
+  max-width: 310px;
+  padding: 10px;
+  text-decoration: none;
+  text-shadow: rgba($gry, .6) 1px 1px 0, rgba($blk, .67) -1px -1px 1px;
+}
+.stitched:hover {
+  cursor: pointer;
+}

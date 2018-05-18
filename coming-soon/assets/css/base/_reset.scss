@@ -1,0 +1,13 @@
+@import "../utils/mixins";
+@import "../base/colours";
+
+/* Reset
+========================================================================== */
+%body {
+  font-family: "Special Elite", cursive;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  @extend %body;
+}

@@ -1,3 +1,17 @@
+## 1.2.0 2018-06-05
+
+## Added
+- config.php
+- manifest.json
+- schema.php
+- service worker
+
+## Changed
+- moved parts into includes
+- config (all pages updated)
+
+------------------------------------------------------------
+
 ## 1.1.0 2018-05-18
 
 ## Added

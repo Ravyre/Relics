@@ -4,20 +4,21 @@
  */
 ?>
 
-<?php $dir = __DIR__ ?>
-
 <?php
-include $dir . ('/parts/header/head.php');
+// config
+require_once __DIR__ . ('/includes/config.php');
+// header
+include ROOT_PATH . ('includes/header.php');
 ?>
 
-<?php include $dir . ('/../consent/consent.php'); ?>
+<?php include ROOT_PATH . ('/includes/consent.php'); ?>
 <div id="content" class="content">
   <!-- art -->
-  <img class="bg__img" src="<?php $dir ?>assets/img/troopers_docga.jpg" alt="relics miniature game troopers docga art">
+  <img class="bg__img" src="assets/img/troopers_docga.jpg" alt="relics miniature game troopers docga art">
   <div class="va info">
     <div>
       <!-- logo -->
-      <img class="logo" src="<?php $dir ?>assets/img/logo.png" alt="relics skirmish miniature game logo">
+      <img class="logo" src="assets/img/logo.png" alt="relics skirmish miniature game logo">
       <!-- header -->
       <div class="relaunch">
         <h1>We will be relaunching soon</h1>
@@ -70,4 +71,4 @@ include $dir . ('/parts/header/head.php');
 </div>
 
 <!-- Footer -->
-<?php include $dir . ('/../../parts/footer/footer.php') ?>
+<?php include ROOT_PATH . ('/includes/footer.php') ?>
